@@ -18,8 +18,8 @@
 }
 
 .theme-icon {
-		color: var(--alt-text);
-		font-size: 1rem;
+	color: var(--alt-text);
+	font-size: 1rem;
 }
 
 .theme-icon:hover {
@@ -93,40 +93,34 @@
 }
 
 @media (max-width: 768px) {
-  .typewriter-text {
-    font-size: 20px;
-  }
+	.typewriter-text {
+		font-size: 20px;
+	}
 
-  .home {
-  	height: 200px;
-  	border: none;
-  	border-radius: 0;
-  }
+	.home {
+		height: 200px;
+		border: none;
+		border-radius: 0;
+	}
 
-  .info-list {
-  	width: 100%;
-  }
+	.info-list{
+		width: 100%;
+	}
 
-  .skill-progress {
-  	width: 100%;
-  	padding: 0 30px;
-  }
+	.skill-progress {
+		width: 100%;
+		padding: 0 30px;
+	}
 
-  .card {
-  	padding: 30px;
-  }
+	.card {
+		padding: 30px;
+	}
 }
 
 @media (max-width : 992px) {
 	.skill-progress {
 		width: 100%;
 		padding: 0 30px;
-	}
-}
-
-@media (min-width : 992px) {
-	#extra-hr {
-		opacity: 0;
 	}
 }
 
@@ -174,7 +168,7 @@
 }
 
 .contact {
-	width: 49%;
+	width: 100%;
 	height: auto;
 	background-color: rgba(59, 57, 57, 0.71);
 	padding: 30px;
