@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio V2</title>
+
+	<link rel="stylesheet" type="text/css" href="portfoliov2.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/b50c1683f8.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: black; font-family: Ubuntu; color: var(--alt-bg);">
+	<nav class="navbar sticky-top navbar-expand-lg theme-dark bg-opacity-10">
+		<div class="container">
+			<a class="navbar-brand fs-2 fw-semibold" href="#" style="color: var(--theme-text);">myPortfolio</a>
+			<button class="navbar-toggler bg-secondary-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active fw-semibold text-white" aria-current="page" href="#">Home</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fw-semibold text-white" aria-current="page" href="#about">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fw-semibold text-white" aria-current="page" href="#resume">Resume</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fw-semibold text-white" aria-current="page" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="mx-auto container home">
+		<div class="typewriter">
+			<div class="typewriter-text">>Hi, I am Parth Chavda.</div>
+		</div>
+
+		<div>
+			<div class="typewriter">//I am a passionate and ambitious programmer from Gujarat.</div>
+		</div>
+	</div>
+
+	<div class="row mx-auto container">
+		<div id="about">
+			<hr>
+			<span class="fs-5 fw-bold theme-alt">About</span>
+			<hr>
+			<p class="section-head">more about me</p>
+			<div class="col-lg-4 float-start">
+				<img src="aboutme.jpg" class="img-fluid my-2	">
+			</div>
+			<div class="col-lg-8 align-items-end float-end px-2">
+				<h3>Programmer & Tech Enthusiast</h3>
+
+				<p class="fst-italic">A software developer/programmer with a deep-rooted love for everything related to technology and the possibilities it unlocks.</p>
+
+				<div class="col-lg-6 float-start info-list">
+					<ul type="disc" class="fs-6">
+						<li>
+							<strong>Birthday : </strong>
+							<span>9th June 2003</span>
+						</li>
+
+						<li>
+							<strong>Website : </strong>
+							<a href="chavda-parth.github.io/Portfolio" class="theme-alt">Portfolio v1</a><span> | </span>
+							<a href="chavda-parth.github.io/PortfolioV2" class="theme-alt">Portfolio v2</a>
+						</li>
+
+						<li>
+							<strong>Phone : </strong>
+							<span>+91 7359391295</span>
+						</li>
+
+						<li>
+							<strong>City : </strong>
+							<span>Jamnagar, Gujarat</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-6 float-end info-list">
+					<ul type="disc" class="fs-6">
+						<li>
+							<strong>Age : </strong>
+							<span>20</span>
+						</li>
+
+						<li>
+							<strong>Degree : </strong>
+							<span>Bachelors (Pursuing)</span>
+						</li>
+
+						<li>
+							<strong>Email : </strong>
+							<span>chavdaparth480@gmail.com</span>
+						</li>
+
+						<li>
+							<strong>Freelancing : </strong>
+							<span>Open to offers</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<hr>
+			<span class="fs-5 fw-bold theme-alt">Skills</span>
+			<hr>
+			<p class="section-head">areas of expertise</p>
+
+			<div class="col-lg-6 skill-progress float-start">
+				<span>Java</span>
+				<i class="fa-brands fa-java theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 95%">95%</div>
+				</div>
+
+				<hr>
+
+				<span>DBMS</span>
+				<i class="fa-solid fa-database theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 90%">90%</div>
+				</div>
+
+				<hr>
+
+				<span>C</span>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 80%">80%</div>
+				</div>
+
+				<hr>
+
+				<span>Data Structures</span>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="15%" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 15%">15%</div>
+				</div>
+
+				<hr>
+
+				<span>Cyber Security</span>
+				<i class="fa-solid fa-shield theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 40%">40%</div>
+				</div>
+
+				<hr id="extra-hr">
+			</div>
+
+			<div class="col-lg-6 skill-progress float-end">
+
+				<span>HTML</span>
+				<i class="fa-brands fa-html5 theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 85%">85%</div>
+				</div>
+
+				<hr>
+
+				<span>CSS</span>
+				<i class="fa-brands fa-css3 theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+				</div>
+
+				<hr>
+
+				<span>Bootstrap</span>
+				<i class="fa-brands fa-bootstrap theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 70%">70%</div>
+				</div>
+
+				<hr>
+
+				<span>JavaScript</span>
+				<i class="fa-brands fa-square-js theme-icon"></i>
+				<div class="progress rounded-1" role="progressbar" aria-label="Example with label" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+					<div class="progress-bar bg-danger" style="width: 10%">10%</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<hr>
+			<span class="fs-5 fw-bold theme-alt">Testimonials</span>
+			<hr>
+
+			<p class="section-head mb-3">Proof of Positive Experience</p>
+
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card bg-black text-white mx-auto" style="width: 18rem;">
+							<img src="testimonial1.jpg" class="card-img-top float-start" alt="...">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">Prof. Arjun Bala</h5>
+								<p class="lead">Assistant Professor</p>
+								<p class="card-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="card bg-black text-white mx-auto" style="width: 18rem;">
+							<img src="testimonial2.jpg" class="card-img-top float-start" alt="...">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">Prof. Vijay Shekhat</h5>
+								<p class="lead">Assistant Professor</p>
+								<p class="card-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="card bg-black text-white mx-auto" style="width: 18rem;">
+							<img src="testimonial3.jpg" class="card-img-top float-start" alt="...">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">Prof. Ashok Badresiya</h5>
+								<p class="lead">Assistant Professor</p>
+								<p class="card-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="card bg-black text-white mx-auto" style="width: 18rem;">
+							<img src="testimonial4.jpg" class="card-img-top float-start" alt="...">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">Prof. Hemang Chath</h5>
+								<p class="lead">Assistant Professor</p>
+								<p class="card-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="card bg-black text-white mx-auto" style="width: 18rem;">
+							<img src="testimonial5.jpg" class="card-img-top float-start" alt="...">
+							<div class="card-body">
+								<h5 class="card-title fw-bold">Dr. Gopi Sanghani</h5>
+								<p class="lead">Dean</p>
+								<p class="card-text fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+
+		<div id="resume">
+			<hr>
+			<span class="fs-5 fw-bold theme-alt">Resume</span>
+			<hr>
+
+			<p class="section-head mb-3">Professional Information</p>
+
+			<span class="resume-head">
+				<i class="fa-solid fa-caret-down" style="color: white;"></i>
+			Summary :</span>
+			<div class="container">
+				<p class="resume-subhead">
+				Parth Chavda</p>
+				<span class="resume-content">Innovative and dead-line driven student developer with a motto of constant growth.</span>
+				<ul class="ul resume-info">
+					<li>Jamnagar, Gujarat, India</li>
+					<li>+917359391295</li>
+					<li>chavdaparth480@gmail.com</li>
+				</ul>
+			</div>
+
+			<span class="resume-head">
+				<i class="fa-solid fa-caret-down" style="color: white;"></i>
+			Education :</span>
+			<div class="container resume">
+				<span class="resume-subhead">bachelor of science in information technology (pursuing)</span>
+				<span class="resume-badge">2022 - 2025</span>
+				<p class="resume-content">Darshan Institute of Computer Applications, Rajkot, Gujarat</p>
+				<div class="resume-info">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</div>
+			</div>
+
+			<div class="container resume">
+				<span class="resume-subhead">higher secondary education (GSHSEB)</span>
+				<span class="resume-badge">2019 - 2021</span>
+				<p class="resume-content">New Advent Academy, Jamnagar, Gujarat</p>
+				<div class="resume-info">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</div>
+			</div>
+
+			<div class="container resume">
+				<span class="resume-subhead">secondary education (GSEB)</span>
+				<span class="resume-badge">2018 - 2019</span>
+				<p class="resume-content">New Advent Academy, Jamnagar, Gujarat</p>
+				<div class="resume-info">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</div>
+
+			</div>
+			<span class="resume-head">
+				<i class="fa-solid fa-caret-down" style="color: white;"></i>
+			Experience :</span>
+
+			<div class="container">
+				<ul class="ul resume-info">
+					<li>Fresher</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="contact">
+			<hr>
+			<span class="fs-5 fw-bold theme-alt">Contact</span>
+			<hr>
+			<p class="section-head">reach out</p>
+
+			<div class="contact-design">
+				<div class="contact float-start">
+					<i class="fa-solid fa-location-dot theme-icon"></i>
+					<span class="contact-head">My Address</span>
+					<p class="contact-info">Jamnagar, Gujarat, India, 361004</p>
+				</div>
+
+				<div class="contact float-end">
+					<i class="fa-solid fa-share-nodes theme-icon"></i>
+					<span class="contact-head">Social Profiles</span>
+					<p class="contact-info">
+						<a href="https://www.facebook.com/login" target="_blank" style="text-decoration:none">
+							<i class="fa-brands fa-facebook contact-icon" target="_blank"></i>
+						</a>
+						<a href="https://www.twitter.com/login" target="_blank" style="text-decoration:none">
+							<i class="fa-brands fa-twitter contact-icon" target="_blank"></i>
+						</a>
+						<a href="https://www.instagram.com/login" target="_blank" style="text-decoration:none">
+							<i class="fa-brands fa-instagram contact-icon"></i>
+						</a>
+						<a href="https://www.linkedin.com/login" target="_blank" style="text-decoration:none">
+							<i class="fa-brands fa-linkedin contact-icon"></i>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="contact-design">
+				<div class="contact float-start">
+					<i class="fa-solid fa-envelope theme-icon"></i>
+					<span class="contact-head">My Email</span>
+					<p class="contact-info">chavdaparth480@gmail.com</p>
+				</div>
+
+				<div class="contact float-end">
+					<i class="fa-solid fa-envelope theme-icon"></i>
+					<span class="contact-head">Phone No.</span>
+					<p class="contact-info">+917359391295</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

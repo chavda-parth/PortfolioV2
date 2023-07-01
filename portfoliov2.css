@@ -1,0 +1,198 @@
+:root {
+	--alt-bg: white;
+	--alt-text: #87b2e6;
+
+	--theme-bg: black;
+	--theme-text: #c02026;
+}
+
+
+
+.theme-alt {
+	color: var(--alt-text);
+}
+
+.theme-dark {
+	background-color: var(--theme-bg);
+	color: var(--theme-text);
+}
+
+.theme-icon {
+		color: var(--alt-text);
+		font-size: 1rem;
+}
+
+.theme-icon:hover {
+	color: var(--alt-text);
+}
+
+.section-head {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	color: var(--theme-text);
+}
+
+.home {
+	height: 500px;
+	width: auto;
+	border: 2px solid white;
+	border-radius: 20px;
+	background-image: url(home.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.typewriter {
+	font-family: Courier, monospace;
+	color: white;
+}
+
+.typewriter-text {
+	overflow: hidden;
+	letter-spacing: 2px;
+	animation: typing 2s steps(30, end), .75s step-end infinite;
+	white-space: nowrap;
+	font-size: 30px;
+	font-weight: 700;
+	box-sizing: border-box;
+}
+
+@keyframes typing {
+	from { 
+		width: 0% 
+	}
+	to { 
+		width: 100% 
+	}
+}
+
+.info-list li {
+	margin-bottom: 15px;
+}
+
+.info-list strong {
+	color: var(--theme-text);
+}
+
+.info-list a {
+	color: var(--alt-text);
+}
+
+.skill-progress {
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 30px;
+}
+
+.progress {
+	margin-bottom: 30px;
+	width: 80%;
+}
+
+@media (max-width: 768px) {
+  .typewriter-text {
+    font-size: 20px;
+  }
+
+  .home {
+  	height: 200px;
+  	border: none;
+  	border-radius: 0;
+  }
+
+  .info-list {
+  	width: 100%;
+  }
+
+  .skill-progress {
+  	width: 100%;
+  	padding: 0 30px;
+  }
+
+  .card {
+  	padding: 30px;
+  }
+}
+
+@media (max-width : 992px) {
+	.skill-progress {
+		width: 100%;
+		padding: 0 30px;
+	}
+}
+
+@media (min-width : 992px) {
+	#extra-hr {
+		opacity: 0;
+	}
+}
+
+.resume-head {
+	font-size: 20px;
+	font-style: italic;
+	margin: 0;
+}
+
+.resume-subhead {
+	font-size: 20px;
+	font-style: bold;
+	margin: 0;
+	color: var(--alt-text);
+	text-transform: capitalize;
+}
+
+.resume-content {
+	font-style: italic;
+	margin: 0;
+	color: var(--theme-text);
+}
+
+.resume-info {
+	font-style: bold;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 80%;
+}
+
+.resume-badge {
+	height: 20px;
+	width: auto;
+	font-size: 15px;
+	font-style: bold;
+	padding: 4px;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, rgba(192, 32, 38, 1), rgba(192, 32, 38, 0));	
+}
+
+.contact-design {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contact {
+	width: 49%;
+	height: auto;
+	background-color: rgba(59, 57, 57, 0.71);
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.contact-head {
+	color: var(--alt-text);
+	font-size: 20px;
+}
+
+.contact-info {
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.contact-icon {
+	color: white;
+	margin-right: 5px;
+}
